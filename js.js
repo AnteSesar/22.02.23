@@ -51,3 +51,14 @@ console.log("email ok = " + isEmailOk);
 
 return;
 ________________________________________________*/
+
+
+var dog = {};
+dog.breed = "Golden retriever";
+dog["other breed"] = "Chihuahua";
+
+var glavnaPasmina = dog.breed;
+var podPasmina = dog["other breed"];
+
+console.log(glavnaPasmina);
+console.log(podPasmina);
